@@ -1,0 +1,22 @@
+<lui-dialog>
+	<lui-dialog-header>
+		<lui-dialog-title>Qlik Chat - <span ng-bind="sheetName"></span></lui-dialog-title>
+	</lui-dialog-header>
+	<lui-dialog-body style="width: 380px; max-height: 400px;">	
+		<div class="chat-window">
+			<form class="chat" ng-submit="addItem();" name="chatbox">
+				<input type="text" id="add-message" placeholder="Your message...." required/><button type="submit" value="Submit" ng-disabled="chatbox.$invalid"><span class="lui-icon lui-icon--plus" aria-hidden="true"></span></button>
+			</form>			
+			
+			<div class="chat-content" id="message">
+				<div ng-repeat="message in messages" >
+					<div class="{{message.cssName}}">{{message.user_name}} - {{message.timeStamp}}</div>
+					<div class="{{message.cssContent}}">{{message.message}}</div>
+				</div>				
+			</div>
+		</div>
+</lui-dialog-body>
+	<lui-dialog-footer>
+		<button class="lui-button  lui-dialog__footer-button" ng-click="stopRefresh();close();">Close</button>
+	</lui-dialog-footer>
+</lui-dialog>

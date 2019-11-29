@@ -1,0 +1,21 @@
+{
+    "name": "QlikChat",
+    "description": "Example extension to show how a chat client can be built on a node and express js API. This extension requires the nodejs chat API backend",
+    "bundle": {
+        "id": "Kab-s Extension Bundle",
+        "name": "Kab-s Extension Bundle",
+        "description": "Qlik Sense Extension bundle from Kabir Rab."
+    },
+    "type": "visualization",
+    "icon": "extension",
+    "version": "0.0.0.1",
+    "author": "Kabir Rab",
+    "homepage": "https://kabonline.net",
+    "keywords": "qlik-sense, visualization, chat",
+    "license": "MIT",
+    "repository": "",
+    "preview": "lib/img/chat-prototype.png",
+    "dependencies": {
+        "qlik-sense": ">=3.0.x"
+    }
+}
