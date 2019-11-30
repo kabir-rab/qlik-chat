@@ -9,15 +9,15 @@ Wanted to demonstrate how to build and deploy a REST API to add chat functionali
 
 
 # Contents
-1. Prerequisites
+1. [Prerequisites](#prerequisites)
 2. [PostgreSQL user and Database creation via command prompt](#postgresql-user-and-database-creation-via-command-prompt)
-3. Setup the node-chatapi folder
-    1. [Copy the node-chatapi folder]
-    2. [Add server certificate to the node-chatapi project]
-    3. [Start the API]
+3. [Setup the node-chatapi folder](#setup-the-node-chatapi-folder)
+    1. [Copy the node-chatapi folder](#copy-the-node-chatapi-folder)
+    2. [Add server certificate to the node-chatapi project](#add-server-certificate-to-the-node-chatapi-project)
+    3. [Start the API](#start-the-api)
 4. [Setup Qlik Sense Extension](#setup-qlik-sense-extension)
-    1. [Install the Qlik Sense extension]
-    2. [Configure the Qlik Sense extension]
+    1. [Install the Qlik Sense extension](#install-the-qlik-sense-extension)
+    2. [Configure the Qlik Sense extension](#configure-the-qlik-sense-extension)
 
 
 # Setup
