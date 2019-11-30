@@ -15,7 +15,7 @@ Wanted to demonstrate how to build and deploy a REST API to add chat functionali
     1. Copy the node-chatapi folder
     2. Add server certificate to the node-chatapi project
     3. Start the API
-4. Setup Qlik Sense Extension
+4. [Setup Qlik Sense Extension](#-setup-qlik-sense-extension)
     1. Install the Qlik Sense extension
     2. Configure the Qlik Sense extension
 
