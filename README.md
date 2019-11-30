@@ -10,7 +10,7 @@ Wanted to demonstrate how to build and deploy a REST API to add chat functionali
 
 # Contents
 1. Prerequisites
-2. [PostgreSQL user and Database creation via command prompt](##-PostgreSQL-user-and-Database-creation-via-command-prompt)
+2. [PostgreSQL user and Database creation via command prompt](#-PostgreSQL-user-and-Database-creation-via-command-prompt)
 3. Setup the node-chatapi folder
     1. Copy the node-chatapi folder
     2. Add server certificate to the node-chatapi project
