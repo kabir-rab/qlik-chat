@@ -24,7 +24,7 @@ Wanted to demonstrate how to build and deploy a REST API to add chat functionali
 ## Prerequisites
 First make sure you have node.js installed in the environment. If you do not already have node.js installed then you can install node.js from [Here](https://nodejs.org/en/).
 
-Download and unzip this repo to your server where you wish you run the API from. Make sure you have the PostgreSQL server install on the same server. If not you will have to change the config in the "node-chatapi" folder in file named "bd.js" as shown below - 
+Download and unzip this repo to your server where you wish you run the API from. Make sure you have the PostgreSQL server install on the same server. If not you will have to change the config in the "node-chatapi" folder in file named `db.js` as shown below - 
 
 ```javascript
 const pool = new Pool({
